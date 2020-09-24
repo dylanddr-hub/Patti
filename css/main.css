@@ -1,0 +1,475 @@
+/*
+RESET CSS 
+BACKGROUND
+COLOR
+POLICE
+HOVER
+*/
+
+/*==========RESET CSS voir reset.css==========*/
+
+
+/*==========BACKGROUND==========*/
+
+body {
+    background:#efefef;
+}
+
+.header{
+    background:#fff;
+}
+
+
+.slider{
+    background-image: url(../img/slide1.jpg);
+    background-image: url(../img/slide2.jpg);
+    background-image: url(../img/slide3.jpg);
+}
+
+.slider, .services,.twitter{
+    background-size: cover;
+}
+
+.quote{
+    background-image: url(../img/parallax-quote.jpg)
+}
+
+.twitter{
+    background-image: url(../img/parallax-twitter.jpg);
+}
+
+.services{
+    background-image: url(../img/parallax-services1.jpg);
+}
+
+.contact{
+    background-image: url(../img/parallax-contact1.jpg);
+    background-repeat: repeat;
+}
+
+.partner{
+    background-color: #fe7e17;
+}
+
+.contact__logo--style{
+    background-color: #fff;
+}
+
+.map{
+    background-color: #000;
+}
+
+#firstname, #email, #message{
+    background-color: transparent;
+}
+
+
+/*==========COLOR==========*/
+
+
+body{
+    color: #404040;
+}
+
+
+p, .counter-text, .quote-albert__fa--color,
+.fa-pencil, .fa-link{
+    color: #686868;
+}
+
+a{
+    color: #404040;
+}
+
+
+.twitter, .twitter__action--btn, .contact__logo, 
+.localisation__background, .quote-albert, .fa-external-link, 
+.slider__text, .slider__title--style, 
+.fa-search, .quote__text, .quote__signature, 
+.twitter__title, .contact__title,
+.contact__subtitle{
+    color: #fff
+}
+
+.twitter__link, .twitter-user, .testimonial-name, 
+.blog__read-more, .contact__link{
+    color: #fe7e17;
+}
+
+.quote-albert--date, quote-alber__author{
+    color: #a3a2a2;
+}
+
+
+.team__social--color, .social__content--logo{
+    color: #868686;
+}
+
+.services__social--logo, .contact__logo--style{
+    color: #323232;
+}
+
+
+
+
+/*==========POLICE==========*/
+
+.menu-nav__link, .section__title, 
+.about__subtitle, about__progress-title--uppercase, 
+.quote__signature, .services__title, .blog__article--title,
+.blog__read-more, .map__text, .team__name, .skill__name--uppercase{
+    text-transform: uppercase;
+}
+
+.about__progress-title--capitalize, work__list,
+.placeholder, skill__name--capitalize{
+    text-transform: capitalize;
+}
+
+.blog__read-more, .counter-number__data{
+    font-weight: bold;
+}
+
+.menu-nav__submenu--link{
+    font-weight: 600;
+}
+
+.menu-nav__link, .about__progress-title, .services__title{ 
+    font-weight: 700;
+
+}
+
+.about__subtitle, .team__name, .skill__name{
+    font-weight: 800;
+}
+
+.post-content__date, .fa-pencil,.fa-link {
+    font-size: 0.75rem;
+}
+
+
+.blog__read-more{
+    font-size: 0.813rem;
+}
+
+.menu-nav__link .about__progress-title,
+.services__title, .tweet-time,
+twitter__action--btn, .copyright, team__name{ 
+    font-size: 0.875rem;
+
+}
+
+.contact__info, p, .quote__signature{
+    font-size: 0.938rem;
+}
+
+.work__list{
+    font-size: 1rem;
+}
+
+.tweet-text, .twitter__link,
+contact__subtitle, .skill__name{
+    font-size: 1.125rem;
+}
+
+.blog__article--title{
+    font-size: 1.25rem;
+}
+
+.map__text{
+    font-size: 1.375rem;
+}
+
+.about__subtitle{
+    font-size: 1.5rem;
+
+}
+
+.quote__text{
+    font-size: 1.875rem;
+}
+
+
+.section__title{
+    font-size: 2.25rem;
+}
+
+.counter-number__data, .services__social--style{
+    font-size: 3.5rem;   
+}
+
+
+
+/*==========HOVER==========*/
+
+.menu-nav__link:hover {
+    text-decoration: underline;
+}
+
+.team__social--color:hover, .blog__article--color:hover, 
+.social__content--logo:hover, .menu-nav__submenu--link:hover{
+    color: #fe7e17;
+}
+
+.blog__read-more:hover{
+    color: #404040; 
+}
+
+.twitter__link:hover, .twitter-user:hover, 
+.contact__link:hover{
+    color: #fff;
+}
+
+.localisation__background:hover{
+    background-color: #fff;  
+    color: #404040;
+}
+
+.work__list--style:hover{
+    border: 0.063rem solid #FE7E17;
+    padding: 0.375rem 0.75rem;
+}
+
+
+
+
+.team__img, .portfolio__img, .blog__img {
+    filter:grayscale(100%);
+}
+
+.team__img:hover, .portfolio__img:hover, 
+.blog__img:hover{
+    filter:grayscale(0%);
+    transform: scale(1.01);
+}
+
+a, .item-in-hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+/*==========SECTION TITLE STYLE==========*/
+
+
+.section__title{
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.section__title::after{
+    border-bottom: 1px solid #fe7e17;
+    display:block;
+    content: "";
+    height: 0.063rem;
+    width: 7.5rem;
+    margin: 0.938rem auto 1.25rem;
+    position: relative;
+}
+
+
+/*==========FLEXBOX==========*/
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+/*==========SKILL BAR==========*/
+
+.skill{
+    width: 100%;
+    max-width: 37.5rem;
+    padding: 0 1.25rem;
+}
+
+.skill__name{
+    margin: 1.25rem 0;
+}
+
+.skill__bar{
+    height: 1.25rem;
+    background: #fff;
+    border-radius: 8px; 
+}
+
+.skill__per--html, .skill__per--illustrator,
+.skill__per--photoshop{
+    height: 1.25rem;
+    background-color: #fe7e17;
+    position: relative;
+
+}
+
+.skill__per--html{
+    width: 65%;
+    animation: skill__per--html 2s;
+}
+
+.skill__per--illustrator{
+    width: 45%;
+    animation: skill__per--illustrator 2s;
+}
+
+.skill__per--photoshop{
+    width: 95%;
+    animation: skill__per--photoshop 2s;
+}
+
+
+.skill__per--html::before{
+    content: "65";
+    position: absolute;
+    padding: 0.25rem 0.375rem;
+    background-color:#000;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    top: -1.875rem;
+    right: 0;
+    transform: translate(50%)
+}
+
+.skill__per--illustrator::before{
+    content: "45";
+    position: absolute;
+    padding: 0.25rem 0.375rem;
+    background-color:#000;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    top: -1.875rem;
+    right: 0;
+    transform: translate(50%)
+}
+
+.skill__per--photoshop::before{
+    content: "95";
+    position: absolute;
+    padding: 0.25rem 0.375rem;
+    background-color:#000;
+    color: #fff;
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+    top: -1.875rem;
+    right: 0;
+    transform: translate(50%)
+}
+
+.skill__per--html::after, .skill__per--illustrator::after,
+.skill__per--photoshop::after{
+    content: "";
+    position: absolute;
+    width: 0.625rem; 
+    height: 0.625rem;
+    background-color: #000;
+    top: -1rem;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 0.125rem;
+
+}
+
+
+@keyframes skill__per--illustrator{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 45%
+    }
+}
+@keyframes skill__per--html{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 65%
+    }
+}
+@keyframes skill__per--photoshop{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 95%
+    }
+}
+
+
+/*==========SECTION TEAM===========*/
+
+.team__member, .team__subtitle{
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.team__text{
+    padding-bottom: 0.313rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0;
+}
+
+.team__name--underline {
+    border-bottom: 0.063rem solid #fe7e17;
+    padding-bottom: 0.313rem; 
+}
+
+.team__social--link{
+    padding: 0.563rem;
+    display:inline-flex;
+}
+
+.team__text--style{
+    margin-top: 0.625rem;
+}
+
+/*==========MENU MOBILE==========*/
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    z-index: 1000;
+}
+
+.fa-bars{
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 30px;
+}
+
+.menu-nav__img{
+    display: flex;
+    justify-content: flex-start;  
+}
+
+
+.menu-btn:checked ~ .menu{
+    max-height: 326px;
+    transition: max-height all 0.2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
